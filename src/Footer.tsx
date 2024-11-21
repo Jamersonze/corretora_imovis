@@ -2,7 +2,7 @@ import { FaCopyright, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "rea
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col items-center mx-auto bg-black text-white">
+        <footer className="flex flex-col items-center mx-auto bg-black text-white py-4">
             <h1>Footer</h1>
             <section className="flex flex-row items-center gap-x-2">
                 <FaCopyright />
