@@ -5,7 +5,7 @@ import FAQ from "./components/FAQ/FAQ"
 import HeaderBar from "./components/HeaderBar"
 import MainTitle from "./components/MainTitle"
 import TestimonialIntro from "./components/Testimonial/Intro"
-import Footer from "./Footer"
+import Footer from "./components/Footer"
 
 function App() {
   return (
