@@ -14,7 +14,7 @@ export default function HeaderBar({ title }: HeadTitleProps) {
     ]
 
     return (
-        <header className="flex flex-row items-center justify-evenly m-auto bg-slate-300">
+        <header className="flex flex-col lg:flex-row items-center justify-around bg-slate-300">
             <h1>{title}</h1>
             <Navigation links={links}/>
         </header>

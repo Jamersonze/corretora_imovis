@@ -10,7 +10,7 @@ type Props = {
 export default function Navigation({ links }: Props) {
     return (
         <nav className="py-4">
-            <ul className="flex flex-row gap-x-6">
+            <ul className="flex lg:flex-row flex-col gap-x-6">
                 {links.map((link, index) => (
                     <li key={index}>
                         <a href={link.url}>{link.title}</a>
